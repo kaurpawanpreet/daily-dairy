@@ -1,0 +1,59 @@
+**Day**:wednesday
+**Date**:15-4-2026
+  ## Today's work ##
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Break and Continue in JavaScript</title>
+</head>
+<body>
+
+    <h2>JavaScript Break and Continue Demo</h2>
+
+    <hr>
+
+    <!-- BREAK -->
+    <h3>Break Statement (Stop loop at 5)</h3>
+    <button onclick="useBreak()">Run Break</button>
+    <p id="breakResult"></p>
+
+    <hr>
+
+    <!-- CONTINUE -->
+    <h3>Continue Statement (Skip number 3)</h3>
+    <button onclick="useContinue()">Run Continue</button>
+    <p id="continueResult"></p>
+
+    <script>
+        // BREAK example
+        function useBreak() {
+            let text = "";
+
+            for (let i = 1; i <= 10; i++) {
+                if (i == 5) {
+                    break; // loop stops when i is 5
+                }
+                text += i + " ";
+            }
+
+            document.getElementById("breakResult").innerText = text;
+        }
+
+        // CONTINUE example
+        function useContinue() {
+            let text = "";
+
+            for (let i = 1; i <= 10; i++) {
+                if (i == 3) {
+                    continue; // skip number 3
+                }
+                text += i + " ";
+            }
+
+            document.getElementById("continueResult").innerText = text;
+        }
+    </script>
+
+</body>
+</html>
