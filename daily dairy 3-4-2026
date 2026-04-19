@@ -1,0 +1,18 @@
+*Day**:friday
+**Date**:3-4-2026
+  ## Today's work ##
+using the numbers
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Numbers</h1>
+<h3>Number can be written with or without decimals.</h3>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 10.50;
+</script>
+
+</body>
+</html>
