@@ -1,0 +1,39 @@
+**Day**:friday
+**Date**:10-4-2026
+  ## Today's work ##
+  arithmetic operator
+  <h2>JavaScript Arithmetic</h2>
+<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 100 + 50;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+<h1>JavaScript Assignments</h1>
+<h2>Simple Assignment</h2>
+<h3>The = Operator</h3>
+
+<p id="demo"></p>
+
+<script>
+let x = 10;
+document.getElementById("demo").innerHTML = "Value of x is: " + x;
+</script>
+
+
+  <h1>JavaScript String Operators</h1>
+
+<p>All conditional operators can be used on both numbers and strings.</p>
+
+<p id="demo"></p>
+
+<script>
+let text1 = "A";
+let text2 = "B";
+let result = text1 < text2;
+document.getElementById("demo").innerHTML = "Is A less than B? " + result;
+</script>
+  
